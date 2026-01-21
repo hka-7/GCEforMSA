@@ -45,7 +45,7 @@ Inspired by the paradigm of knowledge distillation where a proficient 'teacher' 
    sh run.sh
 
 ### Testing
-We also provide some pretrained models for testing. [Google drive](https://drive.google.com/file/d/1l8lBr0TtTUlNvJuAiFE1qti0adp7-cK2/view?usp=sharing)
+We also provide some pretrained models for testing. ([Google drive](https://drive.google.com/file/d/1l8lBr0TtTUlNvJuAiFE1qti0adp7-cK2/view?usp=sharing))
 
 ## Citation
 Please cite our paper if you find our work useful for your research.
