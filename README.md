@@ -22,13 +22,14 @@ Inspired by the paradigm of knowledge distillation where a proficient 'teacher' 
 
 
 ## Usage
+### Training
 1. Download the CMU-MOSI and CMU-MOSEI dataset from
-   - Google Drive: [https://drive.google.com/drive/folders/1djN_EkrwoRLUt7Vq_QfNZgCl_24wBiIK](https://drive.google.com/drive/folders/1djN_EkrwoRLUt7Vq_QfNZgCl_24wBiIK)
-   - Baidu Disk: [https://pan.baidu.com/share/init?surl=Wxo4Bim9JhNmg8265p3ttQ](https://pan.baidu.com/share/init?surl=Wxo4Bim9JhNmg8265p3ttQ) (Extraction code: `g3m2`)
+   - [Google Drive](https://drive.google.com/drive/folders/1djN_EkrwoRLUt7Vq_QfNZgCl_24wBiIK)
+   - [Baidu Disk](https://pan.baidu.com/share/init?surl=Wxo4Bim9JhNmg8265p3ttQ) (Extraction code: `g3m2`)
    
    Place them under the folder `/GCEforMSA/datasets` 
 
-2. Download the pre-trained `bert-base-uncased` model from: [https://huggingface.co/google-bert/bert-base-uncased](https://huggingface.co/google-bert/bert-base-uncased)
+2. Download the pre-trained `bert-base-uncased` model from: [huggingface](https://huggingface.co/google-bert/bert-base-uncased)
 
    Place them under the folder `/GCEforMSA/BERT` 
    
@@ -42,6 +43,9 @@ Inspired by the paradigm of knowledge distillation where a proficient 'teacher' 
    ```bash
    cd /GCEforMSA/src
    sh run.sh
+
+### Testing
+We also provide some pretrained models for testing. [Google drive](https://drive.google.com/file/d/1l8lBr0TtTUlNvJuAiFE1qti0adp7-cK2/view?usp=sharing)
 
 ## Citation
 Please cite our paper if you find our work useful for your research.
