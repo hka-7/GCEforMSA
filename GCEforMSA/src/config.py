@@ -8,12 +8,12 @@ import pprint
 from torch import optim
 import torch.nn as nn
 
-
-MODEL_PATH = '/root/autodl-fs/old-datasets/datasets/BERT/bert-base-uncased'
-MOSI_PKL_PATH = '/data/hzj/data/MOSI2/mosi_data_noalign.pkl'
-MOSI_CSV_PATH = '/data/hzj/data/MOSI2/MOSI-label.csv'
-MOSEI_PKL_PATH = '/data/hzj/data/MOSI2/mosi_data_noalign.pkl'
-MOSEI_CSV_PATH = '/data/hzj/data/MOSI2/MOSI-label.csv'
+# change to your own path
+MODEL_PATH = '../BERT/bert-base-uncased'
+MOSI_PKL_PATH = '../datasets/MOSI/mosi_data_noalign.pkl'
+MOSI_CSV_PATH = '../datasets/MOSI/MOSI-label.csv'
+MOSEI_PKL_PATH = '../datasets/MOSEI/mosi_data_noalign.pkl'
+MOSEI_CSV_PATH = '../datasets/MOSEI/MOSI-label.csv'
 
 
 username = Path.home().name
